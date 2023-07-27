@@ -6,7 +6,7 @@ Generate a bibtex entry for a git repository archived on Software Heritage
 ## Run
 
 ```bash
-nix run github:guilloteauq/shw-bibtex -- <URL>
+nix run github:guilloteauq/swh-bibtex -- <URL>
 ```
 
 The `<URL>` is the one from your git provider (github, gitlab, etc.).
@@ -15,7 +15,7 @@ The `<URL>` is the one from your git provider (github, gitlab, etc.).
 
 
 ```bash
-$ nix run github:guilloteauq/shw-bibtex -- https://github.com/oar-team/oar3 https://gitlab.inria.fr/qguillot/batsim.jl
+$ nix run github:guilloteauq/swh-bibtex -- https://github.com/oar-team/oar3 https://gitlab.inria.fr/qguillot/batsim.jl
 
 @software{oar3,
     name = {oar3},
