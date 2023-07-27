@@ -52,7 +52,7 @@ def generate_single_entry(url):
     date = data_main_branch["date"]
     year = date[:4]
     dir = data_main_branch["directory"]
-    swhid = f"swh:1:dir:{dir};origin={url};"
+    swhid = f"swh:1:dir:{dir};origin={url}"
 
     t = Template(BIBTEX_ENTRY_TEMPLATE)
     return t.substitute(
