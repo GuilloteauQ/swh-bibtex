@@ -13,7 +13,7 @@
         default = swh-bibtex;
         swh-bibtex = {
           type = "app";
-          program = "${self.packages.${system}.default}/bin/swh-bibtex";
+          program = "${self.packages.${system}.default}/bin/swh_bibtex";
         };
       };
       packages.${system} = rec {
